@@ -6,7 +6,7 @@
 body {
     font-family: times-new-roman;
     font-size: 22px;
-	font-weight: 600;
+
 }
 
 #mainHeading {
@@ -21,6 +21,16 @@ body {
 .textNormal {
     margin-top: 20px;
 	color: black;
+}
+
+#tonyName {
+    font-family: sans-serif;     
+    color: blue;
+}
+.textBold {
+    margin-top: 20px;
+	color: blue;
+    font-weight: 600;
 }
 
 #textHeading1 {
@@ -44,4 +54,13 @@ ul#list {
 }
 ul, ol{
 font-family:cursive;
+}
+
+ol{
+	color: purple;
+
+}
+ul#list{
+	color: green;
+
 }
