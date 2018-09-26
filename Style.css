@@ -27,15 +27,19 @@ body {
     font-family: sans-serif;     
     color: blue;
 }
-.textBold, .textBoldItalic {
+.textBold, .textBoldItalic1, .textBoldItalic2 {
  font-family: Arial Black;
     margin-top: 20px;
 	color: blue;
     font-weight: 600;
 }
-
-.textBoldItalic{
+.textBoldItalic1, .textBoldItalic2 {
 font-style:italic;
+
+}
+.textBoldItalic2{
+ text-decoration-line: underline;
+ color:red;
 }
  
 #textHeading1 {
