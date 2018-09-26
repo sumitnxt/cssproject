@@ -27,15 +27,19 @@ body {
     font-family: sans-serif;     
     color: blue;
 }
-.textBold, .textBoldItalic {
+.textBold, .textBoldItalic1, .textBoldItalic2 {
  font-family: Arial Black;
     margin-top: 20px;
 	color: blue;
     font-weight: 600;
 }
-
-.textBoldItalic{
+.textBoldItalic1, .textBoldItalic2 {
 font-style:italic;
+
+}
+.textBoldItalic2{
+ text-decoration-line: underline;
+ color:red;
 }
  
 #textHeading1 {
@@ -45,7 +49,7 @@ font-style:italic;
 	background-color:black ;
 	color: white;
 	padding: 25px;
-	}
+}
 
 .textHeading2 {
  font-family: Arial Black;
@@ -53,31 +57,39 @@ font-style:italic;
     font-size: 25px;
     font-weight: 600;
 }
-.textLight{
+.textLight1, .textLight2{
     margin-top: 20px;
     font-family: times-new-roman;
     
+}
+.textLight1{
+background-color:yellow
+    
+}
+.textLight2{
+background-color:grey   
 }
 
 ul, ol{
 font-family:cursive;
 }
+
 ul#list1 {
     margin-top: 20px;
     list-style-type:disc;
-    color: green;
-    
+    color: green;  
 }
 
 ul#list2 {
     margin-top: 20px;
     list-style-type:disc;
     font-family: Arial Black;
-    font-weight: 600;
-    
+    font-weight: 600;  
 }
+
 ol{
 	color: purple;
-
 }
+
+*[alt~="nintendo"]{background-color:orange; }
 
