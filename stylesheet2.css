@@ -7,6 +7,9 @@ body {  }
 p#lorem{
 padding:30px;
 border-top-style:solid;
-border-top-width:thick;
-border-top-color:#0018A8;
+border-left-style:dashed;
+border-bottom-style:dotted;
+border-right-style:double;
+border-width:thick;
+border-color:#0018A8;
  }
